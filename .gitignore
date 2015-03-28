@@ -1,6 +1,6 @@
 .DS_STORE
 composer.lock
 .idea
-test/*
-!test/
-!test/empty
+src/test/*
+!src/test/
+!src/test/empty
