@@ -1,0 +1,16 @@
+{
+    "name": "jorge/upload",
+    "description": "Upload Local e AWS S3",
+    "keywords": ["upload","aws","s3"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Jardim",
+            "email": "jorge@jorgejardim.com.br",
+            "homepage": "http://www.jorgejardim.com.br/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
