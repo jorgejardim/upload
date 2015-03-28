@@ -24,7 +24,7 @@ if(isset($_FILES['file'])) {
         $handle->image_y              = 100;                                    // altura
         $handle->image_ratio_crop     = true;                                   // centralizar e recortar
 
-        $handle->process('/tmp/');
+        $handle->process('/tmp/');                                              // add diretorio temporario
 
         echo '<pre>';
         if ($handle->processed) {
@@ -55,7 +55,7 @@ if(isset($_FILES['file'])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Upload Files to Dir</title>
+        <title>Upload Files to S3</title>
     </head>
     <body>
         <form method='post' enctype="multipart/form-data">
