@@ -17,7 +17,7 @@ class uploadS3 extends upload {
         return parent::__construct($file, $lang);
     }
 
-    public function process($temp_dir) {
+    public function process($temp_dir = null) {
 
         parent::process($temp_dir);
         $this->sendS3();
